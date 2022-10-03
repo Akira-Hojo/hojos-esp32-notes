@@ -4,7 +4,7 @@ Notes on getting Espressif IDF and the IDF console working in VS Code.
 
 ### User settings.json config
 
-VS Code terminal profile settings have changed. First we need to define our Windows console profiles, notice we will make our own console specifically for the Espressif IDF, labeled here "as ESP32 CMD"
+VS Code console profile settings have changed. First we need to define our Windows console profiles, notice we will make our own console specifically for the Espressif IDF, labeled here "as ESP32 CMD"
 
 We want to steal the arguments from the shortcut. In my case for IDF Version 4.4
 
@@ -62,5 +62,6 @@ Now we can load our IDF console by default in our project workspace.
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Espressif/frameworks/esp-idf-v4.4.2/**"
+                ]
 ```
 
